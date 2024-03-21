@@ -86,6 +86,15 @@ abstract class Repository implements RepositoryInterface, CriteriaInterface
     }
 
     /**
+     * Returns clean entity of model
+     * @return mixed
+     */
+    public function entity()
+    {
+        return $this->newModel;
+    }
+
+    /**
      * @param  string $value
      * @param  string $key
      * @return array
