@@ -15,11 +15,11 @@
     }
   ],
   "require": {
-    "php": "^8.0",
-    "illuminate/support": "^9.0",
-    "illuminate/database": "^9.0",
-    "illuminate/filesystem": "^9.0",
-    "illuminate/console": "^9.0"
+    "php": "^8.2",
+    "illuminate/support": "^11.0",
+    "illuminate/database": "^11.0",
+    "illuminate/filesystem": "^11.0",
+    "illuminate/console": "^11.0"
   },
   "require-dev": {
     "mockery/mockery": "dev-master@dev"
